@@ -1,5 +1,6 @@
-let nivel = prompt("Ingrese el nivel de empleado - 0.0 - 0.4 - 0.6 - 0.8 - 1.0 \n (No valores intermedios)")
+let nivel = parseFloat(prompt("Ingrese el nivel de empleado - 0.0 - 0.4 - 0.6 - 0.8 - 1.0 \n (No valores intermedios)"))
 let suma;
+
     if(nivel == 0.0){
         alert("Nivel inaceptable")
 
