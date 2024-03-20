@@ -5,10 +5,10 @@ let contraseña = prompt("INGRESE SU PIN")
 function num_pim(contraseña) {
   regex = /^[\w]{4,6}$/;
   if (regex.test(contraseña)==true){
-    return "true" 
+    return "true"; 
   }
   else{
-    return "false"
+    return "false";
   }
 }
-alert(num_pim(contraseña))
+alert(num_pim(contraseña));
